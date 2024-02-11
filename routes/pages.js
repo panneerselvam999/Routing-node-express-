@@ -31,10 +31,6 @@ router.get("/", (req, res, next) => {
   res.sendFile(path.join(rootDir, "views", "home.html"));
 });
 
-// router.use(express.static(path.join(__dirname, "public")));
 
-// router.use((req, res, next) => {
-//   res.status(404).sendFile(path.join(rootDir, "views", "404.html"));
-// });
 
 module.exports = router;
